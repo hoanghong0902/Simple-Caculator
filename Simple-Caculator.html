@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caculator</title>
+</head>
+<body>
+    <input type="text" id="view" value=" " style="height: 30px; width: 160px; text-align: right; padding: 5px;"> <br> <br>
+    <table>
+        <tr>
+            <td><button type="button" id="Number" onclick="inputValue(this.value)" value="1" style="height: 40px; width: 40px;"> 1 </button></td>
+            <td><button type="button" id="Number" onclick="inputValue(this.value)" value="2" style="height: 40px; width: 40px;"> 2 </button></td>
+            <td><button type="button" id="Number" onclick="inputValue(this.value)" value="3" style="height: 40px; width: 40px;"> 3 </button></td>
+            <th><button type="button" id="Operation" onclick="inputValue(this.value)" value=" + " style="height: 40px; width: 40px;"> + </button></th>
+        </tr>
+        <tr>
+            <td><button type="button" id="Number" onclick="inputValue(this.value)" value="4" style="height: 40px; width: 40px;"> 4 </button></td>
+            <td><button type="button" id="Number" onclick="inputValue(this.value)" value="5" style="height: 40px; width: 40px;"> 5 </button></td>
+            <td><button type="button" id="Number" onclick="inputValue(this.value)" value="6" style="height: 40px; width: 40px;"> 6 </button></td>
+            <th><button type="button" id="Operation" onclick="inputValue(this.value)" value=" - " style="height: 40px; width: 40px;"> - </button></th>
+        </tr>
+        <tr>
+            <td><button type="button" id="Number" onclick="inputValue(this.value)" value="7" style="height: 40px; width: 40px;"> 7 </button></td>
+            <td><button type="button" id="Number" onclick="inputValue(this.value)" value="8" style="height: 40px; width: 40px;"> 8 </button></td>
+            <td><button type="button" id="Number" onclick="inputValue(this.value)" value="9" style="height: 40px; width: 40px;"> 9 </button></td>
+            <th><button type="button" id="Operation" onclick="inputValue(this.value)" value=" * " style="height: 40px; width: 40px;"> x </button></th>
+        </tr>
+        <tr>
+            <th><button type="button" id="Delete" onclick="Delete()" value="" style="height: 40px; width: 40px;"> AC </button></th>
+            <td><button type="button" id="Number" onclick="inputValue(this.value)" value="0" style="height: 40px; width: 40px;"> 0 </button></td>
+            <th><button type="button" id="Result" onclick="Result()" style="height: 40px; width: 40px;"> = </button></th>
+            <th><button type="button" id="Operation" onclick="inputValue(this.value)" value=" / " style="height: 40px; width: 40px;"> / </button></th>
+        </tr>
+    </table>
+    <script src="./Simple-Caculator.js"></script>
+</body>
+</html>
